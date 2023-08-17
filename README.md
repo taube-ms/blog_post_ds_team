@@ -28,3 +28,15 @@ The main building blocks are:
 4. `Evaluator`: A set of evaluation metrics to be implemented based on the specific requirements of the project.
 5. `Experiment`: A framework for conducting time-series cross-validation, running the chosen model, and measuring its performance.
 6. `ErrorAnalysis`: A flexible class designed to accommodate additional functions for generating relevant plots or statistics.
+
+### How to install an env in conda
+
+Create the env:
+```console
+conda create --name <env_name> python=3.8 --file requirements.txt 
+```
+
+Activate the env:
+```console
+conda activate <env_name>
+```
