@@ -3,3 +3,4 @@ pandas
 scipy
 matplotlib
 sklearn
+mlflow
